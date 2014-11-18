@@ -2,13 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>AppDomainAspects</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <authors>Jeremy Beavon</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Provides a RunInDifferentAppDomain attribute.</description>
         <dependencies>
-            <dependency id="PostSharp" version="4.0.35" />
             <dependency id="AppDomainCallbackExtensions" version="1.0.2" />
+            <dependency id="PostSharp" version="[4.0.36]" />
         </dependencies>
     </metadata>
     <files>
